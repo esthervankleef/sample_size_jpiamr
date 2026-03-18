@@ -327,26 +327,5 @@ print(c("Estimated power based on ", numsims, " simulations is ", power, "assumi
 
 
 
-# ******* ignore stuff below here for the moment - not reliably converging  ******
-
-#  MSM analsysis - currently only working for households of size 2
-# qmat<-make_intensity_matrix(hhsize)
-# diag(qmat)<-0
-# 
-# qconstr<- makeQconstraintmat(qmat)
-# 
-# # qmatrix determines what instanteneous transitions are allowed (the non-zero elements)
-# # the non-zero values are the initial values 
-# 
-# require(msm)
-# test.fit<- msm(state ~ time, subject= hhid, data = testdata1, qmatrix=qmat,qconstraint=qconstr, center=TRUE, gen.inits=FALSE, opt.method = "optim", analyticp=FALSE)
-# 
-
-
-
-
-
-
-
 
 
